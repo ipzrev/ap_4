@@ -7,21 +7,23 @@ body {
   background-color: bisque;
 }
 
-h1 {
+.hero {
+  height: 600px;
+  background-color: #ffa109;
+  position: relative;
+  background-image: url(../assets/images/giphy.gif);
+  background-size: cover;
+}
+
+.hero h1 {
   font-family: "FontA", serif;
   font-size: 180px;
   line-height: 80%;
-  color: rgb(255, 255, 255);
-  text-align: center;
-}
-
-.hero {
-  height: 600px;
-  background-image: url(../assets/images/giphy.gif);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  left: 64px;
+  bottom: 64px;
+  color: #fff;
+  text-align: left;
 }
 
 .header {
@@ -70,41 +72,7 @@ h1 {
   background: #000000;
 }
 
-.wrap {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
-
-/* текст */
-.trigger {
-  color: white;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-/* карточка */
-.card {
-  width: 260px;
-  height: 340px;
-
-  opacity: 0;
-  transform: translateY(20px) scale(0.95);
-
-  transition: 0.5s ease;
-
-  perspective: 1000px;
-}
-
-.card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-
-  border-radius: 16px;
-
-  transform-style: preserve-3d;
-  transition: transform 0.2s ease;
+.section_2 {
+  height: 2000px;
+  background-color: brown;
 }
