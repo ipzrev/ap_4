@@ -34,7 +34,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1;
+  z-index: 10;
+}
+
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+
+  background: #ff7300;
+
+  z-index: 100;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  clip-path: inset(0 0 100% 0);
+  z-index: 9;
 }
 
 .line {
