@@ -18,6 +18,7 @@ h1 {
 .hero {
   height: 600px;
   background-image: url(../assets/images/giphy.gif);
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +67,7 @@ h1 {
 
 .menu-btn:hover {
   border-radius: 50%;
-  background: #1a1a1a;
+  background: #000000;
 }
 
 .wrap {
