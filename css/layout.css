@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: bisque;
+}
+
+h1 {
+  font-family: "FontA", serif;
+  font-size: 128px;
+}
+
+.main {
+  height: 600px;
+  background-color: #ff0000;
+}

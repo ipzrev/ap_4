@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "FontA";
+  src: url("../fonts/ABCGravityCyrillic-Wide-Trial.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FontB";
+  src: url("fonts/ABCOracleCyrillic-Regular-Trial.woff2") format("otf");
+}
